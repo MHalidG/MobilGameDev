@@ -9,7 +9,7 @@ namespace TypesAndVariables
     internal class Methods
     {
 
-       /* static void Main(string[] args) {
+        static void Methodess() {
 
             var number1 = 23;
             Add(number1);
@@ -71,7 +71,7 @@ namespace TypesAndVariables
             number1 = 30;
             return number1 + number2;
         }
-       */
+      
 
     }
 

@@ -9,7 +9,7 @@ namespace TypesAndVariables
     internal class _04_Diziler
     {
 
-        static void Main(string[] args) {
+        static void Add() {
 
             string student1 = "Engin";
             string student2 = "Derin";
@@ -28,7 +28,26 @@ namespace TypesAndVariables
 
             string[] students1 = new[]{"Selam","Selami"};
             string[] students2 = {"Selam","Selami"};
-            
+
+            string[,] bolgeler = new string[7, 3]//7 satur 3 sutun
+                {
+                {"11","12","13"},
+                {"21","22","23"},
+                {"31","32","33"},
+                {"41","42","43"},
+                {"51","52","53"},
+                {"61","62","63"},
+                {"71","72","73"}
+                };
+
+            for (int i = 0; i<=bolgeler.GetUpperBound(0); i++)
+            {
+                for (int j = 0; j<=bolgeler.GetUpperBound(1); j++) {
+                    Console.WriteLine(bolgeler[i, j]);
+                }
+
+                Console.WriteLine("*****");
+            }
 
 
 

@@ -47,6 +47,8 @@
     <Compile Include="03-Methods.cs" />
     <Compile Include="01-VariablesAndTypes.cs" />
     <Compile Include="04-Diziler.cs" />
+    <Compile Include="05-Loops.cs" />
+    <Compile Include="06-Stringler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

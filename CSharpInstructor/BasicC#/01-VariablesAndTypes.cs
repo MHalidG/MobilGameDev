@@ -8,9 +8,10 @@ namespace TypesAndVariables
 {
     internal class Program
     {
-        
-        
-            //Console.WriteLine("HelloWorld");
+
+        static void Variableler()
+        {
+            Console.WriteLine("HelloWorld");
 
 
             //C# Variables Type
@@ -36,24 +37,24 @@ namespace TypesAndVariables
 
             string selamsiz = "Hello maraba";
 
-            decimal ses1= 15.60M; //decimal virgulden sonra 14den fazla rakam tutabiliyor
-        /*
-            var sessiz = "selami";
-            var numberss = 20;
-            var charrs = 'a';
-            //Var ile atama yaptiktan sonra tip sinirlamasi yapmiyor istedigin baska tipe donusturebiliyorsun. Tip guvenligi yok.
+            decimal ses1 = 15.60M; //decimal virgulden sonra 14den fazla rakam tutabiliyor
+            
+                var sessiz = "selami";
+                var numberss = 20;
+                var charrs = 'a';
+                //Var ile atama yaptiktan sonra tip sinirlamasi yapmiyor istedigin baska tipe donusturebiliyorsun. Tip guvenligi yok.
 
-          */
-
-
+              
 
 
 
-          //  Console.WriteLine("Number1 is {0}", number2);
+
+
+            //  Console.WriteLine("Number1 is {0}", number2);
 
 
 
-          //  Console.ReadLine();
+            //  Console.ReadLine();
 
 
 
@@ -64,6 +65,6 @@ namespace TypesAndVariables
         {
             Monday, Sunday, Saturday, Huimidag
         }
-   
+    }
     }
 
