@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\bin\Debug\TypesAndVariables.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\bin\Debug\TypesAndVariables.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\bin\Debug\TypesAndVariables.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\obj\Debug\TypesAndVariables.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\obj\Debug\TypesAndVariables.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\obj\Debug\TypesAndVariables.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\obj\Debug\TypesAndVariables.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\TypesAndVariables\obj\Debug\TypesAndVariables.pdb
