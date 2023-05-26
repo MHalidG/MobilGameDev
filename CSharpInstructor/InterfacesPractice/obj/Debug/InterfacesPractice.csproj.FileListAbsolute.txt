@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\bin\Debug\InterfacesPractice.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\bin\Debug\InterfacesPractice.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\bin\Debug\InterfacesPractice.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\obj\Debug\InterfacesPractice.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\obj\Debug\InterfacesPractice.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\obj\Debug\InterfacesPractice.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\obj\Debug\InterfacesPractice.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\InterfacesPractice\obj\Debug\InterfacesPractice.pdb

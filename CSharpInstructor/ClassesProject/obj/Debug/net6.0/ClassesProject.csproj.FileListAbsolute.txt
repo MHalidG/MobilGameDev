@@ -1,0 +1,15 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\bin\Debug\net6.0\ClassesProject.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\bin\Debug\net6.0\ClassesProject.deps.json
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\bin\Debug\net6.0\ClassesProject.runtimeconfig.json
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\bin\Debug\net6.0\ClassesProject.dll
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\bin\Debug\net6.0\ClassesProject.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.AssemblyInfoInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.AssemblyInfo.cs
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.dll
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\refint\ClassesProject.dll
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ClassesProject.genruntimeconfig.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ClassesProject\obj\Debug\net6.0\ref\ClassesProject.dll

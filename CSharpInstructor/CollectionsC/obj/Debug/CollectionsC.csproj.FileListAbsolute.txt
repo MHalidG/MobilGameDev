@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\bin\Debug\CollectionsC.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\bin\Debug\CollectionsC.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\bin\Debug\CollectionsC.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\obj\Debug\CollectionsC.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\obj\Debug\CollectionsC.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\obj\Debug\CollectionsC.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\obj\Debug\CollectionsC.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\CollectionsC\obj\Debug\CollectionsC.pdb

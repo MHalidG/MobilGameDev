@@ -1,0 +1,11 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\bin\Debug\PracticeDamaTahtasi.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\bin\Debug\PracticeDamaTahtasi.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\bin\Debug\PracticeDamaTahtasi.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.Form1.resources
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.Properties.Resources.resources
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.csproj.GenerateResource.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\PracticeDamaTahtasi\obj\Debug\PracticeDamaTahtasi.pdb

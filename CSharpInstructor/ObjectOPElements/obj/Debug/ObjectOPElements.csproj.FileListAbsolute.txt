@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\bin\Debug\ObjectOPElements.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\bin\Debug\ObjectOPElements.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\bin\Debug\ObjectOPElements.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\obj\Debug\ObjectOPElements.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\obj\Debug\ObjectOPElements.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\obj\Debug\ObjectOPElements.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\obj\Debug\ObjectOPElements.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ObjectOPElements\obj\Debug\ObjectOPElements.pdb

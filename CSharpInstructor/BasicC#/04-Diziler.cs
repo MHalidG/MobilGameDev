@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TypesAndVariables
 {
-    internal class _04_Diziler
+    public class _04_Diziler
     {
 
         static void Add() {

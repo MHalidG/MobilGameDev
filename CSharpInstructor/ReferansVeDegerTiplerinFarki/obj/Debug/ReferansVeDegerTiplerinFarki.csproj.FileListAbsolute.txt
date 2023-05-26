@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\bin\Debug\ReferansVeDegerTiplerinFarki.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\bin\Debug\ReferansVeDegerTiplerinFarki.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\bin\Debug\ReferansVeDegerTiplerinFarki.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\obj\Debug\ReferansVeDegerTiplerinFarki.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\obj\Debug\ReferansVeDegerTiplerinFarki.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\obj\Debug\ReferansVeDegerTiplerinFarki.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\obj\Debug\ReferansVeDegerTiplerinFarki.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ReferansVeDegerTiplerinFarki\obj\Debug\ReferansVeDegerTiplerinFarki.pdb
