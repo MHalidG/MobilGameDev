@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\bin\Debug\Generics.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\bin\Debug\Generics.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\bin\Debug\Generics.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\obj\Debug\Generics.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\obj\Debug\Generics.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\obj\Debug\Generics.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Generics\obj\Debug\Generics.pdb
