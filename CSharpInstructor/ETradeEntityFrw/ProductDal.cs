@@ -23,6 +23,39 @@ namespace ETradeEntityFrw
 
         }
 
+        //IMPORTANT NOTICE
+        public List<Product> GetByName(string key)
+        {
+            using (ETradeContext context = new ETradeContext())
+            {
+                return context.Products.Where(p=>p.Name.Contains(key)).ToList();//GetAll from Products Table islevi gorur
+            //DIREK VERI TABANINA SORGU ATILIRKEN SON KULLANICIDAN ALINAN DEGER DIREK DATABASEDE SORULURSA SQL INJECT MUMKUN.
+            //Fakat ikinci bir liste olusturmadan direk dbden veri cektigimiz icin daha hizli ve masrafsiz.
+           //Koleksiyona atama yapilip onun ustune filtreleme yapilirsa Kucuk buyuk harf duyarliligi vardir. C# duyarli.
+           //Dbden sorgu yapilirken buyuk kuck harf duyarsizdir. Onlem aliyoruz
+            
+            }
+
+
+        }
+
+
+        public List<Product> GetByUnitPrice(decimal price)
+        {
+            using (ETradeContext context = new ETradeContext())
+            {
+                return context.Products.Where(p => p.UnitPrice>=price).ToList();
+            }
+        }
+
+        public List<Product> GetByUnitPrice(decimal min,decimal max)
+        {
+            using (ETradeContext context = new ETradeContext())
+            {
+                return context.Products.Where(p => p.UnitPrice >= min&& p.UnitPrice<=max).ToList();
+            }
+        }
+
         public void Add(Product product)
         {
             using (ETradeContext context = new ETradeContext())
@@ -37,6 +70,22 @@ namespace ETradeEntityFrw
 
 
         }
+
+
+        public Product GetById(int id)
+        {
+
+            using (ETradeContext context = new ETradeContext())
+            {
+                var result= context.Products.FirstOrDefault(p => p.Id == id);//Ya veriyi ya nullu donduruyor sadece ilk buldugunu getiriyor
+                //var result= context.Products.SingleOrDefault(p => p.Id == id);//Ayni datadan ikitane varsa Throw exception. Tekse donuyor
+                return result;
+            
+            }
+
+
+        }
+
 
         public void Update(Product product)
         {

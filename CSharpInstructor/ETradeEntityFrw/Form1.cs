@@ -61,6 +61,13 @@ namespace ETradeEntityFrw
             tbxUnitPriceUpdate.Text = dgwProducts.CurrentRow.Cells[2].Value.ToString();
 
         }
+        private void SearchProducts(string key)
+        {
+
+            dgwProducts.DataSource = _proDal.GetAll().Where(p=>p.Name.ToLower().Contains(key.ToLower())).ToList();
+            //Veri tabanindan direk sorgu yapmadigimiz icin sql injection mumkun degil
+            //Language Integrate Query-LinQ
+        }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
@@ -71,6 +78,16 @@ namespace ETradeEntityFrw
             });
             LoadProducts();
             MessageBox.Show("Deleted");
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //_proDal.GetById(1002);
+        }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchProducts(tbxSearch.Text);
         }
     }
 }
