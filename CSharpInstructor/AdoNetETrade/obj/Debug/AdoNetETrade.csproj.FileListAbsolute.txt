@@ -1,0 +1,11 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\bin\Debug\AdoNetETrade.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\bin\Debug\AdoNetETrade.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\bin\Debug\AdoNetETrade.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.Form1.resources
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.Properties.Resources.resources
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.csproj.GenerateResource.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\AdoNetETrade\obj\Debug\AdoNetETrade.pdb

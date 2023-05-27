@@ -29,7 +29,7 @@ namespace ExceptionHandling
 
         }
 
-        private static void HandleException(Action value {
+        private static void HandleException(Action value) {
             //Void methodlar icin 
             try
             {value.Invoke();}
