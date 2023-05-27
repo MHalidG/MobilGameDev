@@ -1,0 +1,16 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\bin\Debug\ETradeEntityFrw.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\bin\Debug\ETradeEntityFrw.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\bin\Debug\ETradeEntityFrw.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\bin\Debug\EntityFramework.dll
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\bin\Debug\EntityFramework.xml
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.Form1.resources
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.Properties.Resources.resources
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.csproj.GenerateResource.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.csproj.CopyComplete
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\ETradeEntityFrw\obj\Debug\ETradeEntityFrw.pdb
