@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETradeEntityFrw", "..\ETrad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "..\Generics\Generics.csproj", "{C7D8776E-972E-45D4-AF3D-0FD82660D59A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "..\Attributes\Attributes.csproj", "{1B9B6E05-32BB-4D3D-8452-02EAE635292A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "..\Reflection\Reflection.csproj", "{D3526463-601A-449F-9879-01F546DF8CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{C7D8776E-972E-45D4-AF3D-0FD82660D59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7D8776E-972E-45D4-AF3D-0FD82660D59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7D8776E-972E-45D4-AF3D-0FD82660D59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9B6E05-32BB-4D3D-8452-02EAE635292A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9B6E05-32BB-4D3D-8452-02EAE635292A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9B6E05-32BB-4D3D-8452-02EAE635292A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9B6E05-32BB-4D3D-8452-02EAE635292A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3526463-601A-449F-9879-01F546DF8CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3526463-601A-449F-9879-01F546DF8CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3526463-601A-449F-9879-01F546DF8CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3526463-601A-449F-9879-01F546DF8CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

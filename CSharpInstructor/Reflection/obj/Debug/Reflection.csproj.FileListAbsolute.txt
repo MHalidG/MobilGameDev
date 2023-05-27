@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\bin\Debug\Reflection.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\bin\Debug\Reflection.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\bin\Debug\Reflection.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\obj\Debug\Reflection.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\obj\Debug\Reflection.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\obj\Debug\Reflection.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\obj\Debug\Reflection.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Reflection\obj\Debug\Reflection.pdb
