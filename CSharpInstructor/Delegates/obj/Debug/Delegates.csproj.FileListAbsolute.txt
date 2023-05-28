@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\bin\Debug\Delegates.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\bin\Debug\Delegates.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\bin\Debug\Delegates.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\obj\Debug\Delegates.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\obj\Debug\Delegates.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\obj\Debug\Delegates.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Delegates\obj\Debug\Delegates.pdb

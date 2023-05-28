@@ -1,0 +1,8 @@
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\bin\Debug\Events.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\bin\Debug\Events.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\bin\Debug\Events.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\obj\Debug\Events.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\obj\Debug\Events.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\obj\Debug\Events.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\obj\Debug\Events.exe
+C:\Users\Fezya\Desktop\MobilGameDev\CSharpInstructor\Events\obj\Debug\Events.pdb

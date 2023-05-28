@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ExceptionHandling
@@ -11,6 +12,9 @@ namespace ExceptionHandling
 
         static void Main(string[] args) {
 
+
+
+            /*
             try
             {
                 Find();
@@ -25,8 +29,31 @@ namespace ExceptionHandling
             HandleException(() => {
                 Find();            
             });
+            */
+
+            Func<int, int, int> add = Topla;//Ilk iki int parametrelerdir son int return.
+            add(3, 4);
+            Console.WriteLine(add(3, 4));
+
+            Func<int> getRandomNumber = delegate () { 
+            Random rnd=new Random();
+                return rnd.Next(1,100);
+           };
+
+            //Thread.Sleep(1000);
+            Console.WriteLine(getRandomNumber());
+            //Thread.Sleep(1000);
+            Func<int> getRandomNumber2 = () => new Random().Next(1, 100);
+            //Thread.Sleep(1000);
+            Console.WriteLine(getRandomNumber());
+            //Thread.Sleep(1000);
+            Console.WriteLine(getRandomNumber2());
+
+        }
 
 
+        static int Topla(int x, int y) { 
+        return x + y;
         }
 
         private static void HandleException(Action value) {
