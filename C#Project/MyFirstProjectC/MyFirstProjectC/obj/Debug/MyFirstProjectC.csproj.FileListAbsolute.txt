@@ -1,0 +1,16 @@
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\bin\Debug\MyFirstProjectC.exe.config
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\bin\Debug\MyFirstProjectC.exe
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\bin\Debug\MyFirstProjectC.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.csproj.AssemblyReference.cache
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.Form1.resources
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.Properties.Resources.resources
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.csproj.GenerateResource.cache
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.csproj.CoreCompileInputs.cache
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.exe
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.pdb
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\bin\Debug\EntityFramework.dll
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\bin\Debug\EntityFramework.xml
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fezya\Desktop\MobilGameDev\C#Project\MyFirstProjectC\MyFirstProjectC\obj\Debug\MyFirstProjectC.csproj.CopyComplete
