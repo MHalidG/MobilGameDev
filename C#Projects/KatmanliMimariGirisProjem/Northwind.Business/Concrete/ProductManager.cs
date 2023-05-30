@@ -26,10 +26,25 @@ namespace Northwind.Business.Concrete
         //Business Code
         //Javadaki Controller Katmani Gibi access ayarlari ve istek return iliskilerini belirliyoruz
         //EfProductDal _productDal = new EfProductDal();
+        public void Add(Product product)
+        {
+            _productDal.Add(product);
+        }
+
         public List<Product> GetAll()
         {
             return _productDal.GetAll();
 
+        }
+
+        public List<Product> GetProductsByCategory(int categoryId)
+        {
+            return _productDal.GetAll(p => p.CategoryId == categoryId);
+        }
+
+        public List<Product> GetProductsByProductName(string productName)
+        {
+            return _productDal.GetAll(p => p.ProductName.ToLower().Contains(productName.ToLower()));
         }
     }
 }
