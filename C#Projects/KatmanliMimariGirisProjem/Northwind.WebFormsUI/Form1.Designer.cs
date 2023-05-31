@@ -36,21 +36,34 @@
             this.tbxProductName = new System.Windows.Forms.TextBox();
             this.lblProductName = new System.Windows.Forms.Label();
             this.gbxAddProduct = new System.Windows.Forms.GroupBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.cbxCategoryId = new System.Windows.Forms.ComboBox();
+            this.tbxQuantityPerUnit = new System.Windows.Forms.TextBox();
+            this.tbxStock = new System.Windows.Forms.TextBox();
+            this.tbxUnitPrice = new System.Windows.Forms.TextBox();
+            this.tbxProductName2 = new System.Windows.Forms.TextBox();
             this.lblQuantityPerUnit = new System.Windows.Forms.Label();
             this.lblStock = new System.Windows.Forms.Label();
             this.lblUnitPrice = new System.Windows.Forms.Label();
             this.lblCategoryId = new System.Windows.Forms.Label();
             this.lblProductName2 = new System.Windows.Forms.Label();
-            this.tbxProductName2 = new System.Windows.Forms.TextBox();
-            this.tbxUnitPrice = new System.Windows.Forms.TextBox();
-            this.tbxStock = new System.Windows.Forms.TextBox();
-            this.tbxQuantityPerUnit = new System.Windows.Forms.TextBox();
-            this.cbxCategoryId = new System.Windows.Forms.ComboBox();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.cbxCategoryIdUpdate = new System.Windows.Forms.ComboBox();
+            this.tbxQuantityPerUnitUpdate = new System.Windows.Forms.TextBox();
+            this.tbxUnitInStockUpdate = new System.Windows.Forms.TextBox();
+            this.tbxUnitPriceUpdate = new System.Windows.Forms.TextBox();
+            this.tbxProductNameUpdate = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgwProduct)).BeginInit();
             this.gbxCategory.SuspendLayout();
             this.gbxProductName.SuspendLayout();
             this.gbxAddProduct.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgwProduct
@@ -140,6 +153,52 @@
             this.gbxAddProduct.TabStop = false;
             this.gbxAddProduct.Text = "Yeni Urun Ekle";
             // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(368, 159);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(116, 23);
+            this.btnAdd.TabIndex = 10;
+            this.btnAdd.Text = "Urunu Kaydet";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // cbxCategoryId
+            // 
+            this.cbxCategoryId.FormattingEnabled = true;
+            this.cbxCategoryId.Location = new System.Drawing.Point(85, 98);
+            this.cbxCategoryId.Name = "cbxCategoryId";
+            this.cbxCategoryId.Size = new System.Drawing.Size(121, 24);
+            this.cbxCategoryId.TabIndex = 9;
+            // 
+            // tbxQuantityPerUnit
+            // 
+            this.tbxQuantityPerUnit.Location = new System.Drawing.Point(368, 97);
+            this.tbxQuantityPerUnit.Name = "tbxQuantityPerUnit";
+            this.tbxQuantityPerUnit.Size = new System.Drawing.Size(116, 22);
+            this.tbxQuantityPerUnit.TabIndex = 8;
+            // 
+            // tbxStock
+            // 
+            this.tbxStock.Location = new System.Drawing.Point(368, 37);
+            this.tbxStock.Name = "tbxStock";
+            this.tbxStock.Size = new System.Drawing.Size(116, 22);
+            this.tbxStock.TabIndex = 7;
+            // 
+            // tbxUnitPrice
+            // 
+            this.tbxUnitPrice.Location = new System.Drawing.Point(85, 159);
+            this.tbxUnitPrice.Name = "tbxUnitPrice";
+            this.tbxUnitPrice.Size = new System.Drawing.Size(121, 22);
+            this.tbxUnitPrice.TabIndex = 6;
+            // 
+            // tbxProductName2
+            // 
+            this.tbxProductName2.Location = new System.Drawing.Point(85, 37);
+            this.tbxProductName2.Name = "tbxProductName2";
+            this.tbxProductName2.Size = new System.Drawing.Size(121, 22);
+            this.tbxProductName2.TabIndex = 5;
+            // 
             // lblQuantityPerUnit
             // 
             this.lblQuantityPerUnit.AutoSize = true;
@@ -185,57 +244,123 @@
             this.lblProductName2.TabIndex = 0;
             this.lblProductName2.Text = "Urun Adi";
             // 
-            // tbxProductName2
+            // groupBox1
             // 
-            this.tbxProductName2.Location = new System.Drawing.Point(85, 37);
-            this.tbxProductName2.Name = "tbxProductName2";
-            this.tbxProductName2.Size = new System.Drawing.Size(121, 22);
-            this.tbxProductName2.TabIndex = 5;
+            this.groupBox1.Controls.Add(this.btnUpdate);
+            this.groupBox1.Controls.Add(this.cbxCategoryIdUpdate);
+            this.groupBox1.Controls.Add(this.tbxQuantityPerUnitUpdate);
+            this.groupBox1.Controls.Add(this.tbxUnitInStockUpdate);
+            this.groupBox1.Controls.Add(this.tbxUnitPriceUpdate);
+            this.groupBox1.Controls.Add(this.tbxProductNameUpdate);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Location = new System.Drawing.Point(44, 687);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(638, 206);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Urunu Guncelle";
             // 
-            // tbxUnitPrice
+            // btnUpdate
             // 
-            this.tbxUnitPrice.Location = new System.Drawing.Point(85, 159);
-            this.tbxUnitPrice.Name = "tbxUnitPrice";
-            this.tbxUnitPrice.Size = new System.Drawing.Size(121, 22);
-            this.tbxUnitPrice.TabIndex = 6;
+            this.btnUpdate.Location = new System.Drawing.Point(368, 159);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(116, 23);
+            this.btnUpdate.TabIndex = 10;
+            this.btnUpdate.Text = "Urunu Guncelle";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // tbxStock
+            // cbxCategoryIdUpdate
             // 
-            this.tbxStock.Location = new System.Drawing.Point(368, 37);
-            this.tbxStock.Name = "tbxStock";
-            this.tbxStock.Size = new System.Drawing.Size(116, 22);
-            this.tbxStock.TabIndex = 7;
+            this.cbxCategoryIdUpdate.FormattingEnabled = true;
+            this.cbxCategoryIdUpdate.Location = new System.Drawing.Point(85, 98);
+            this.cbxCategoryIdUpdate.Name = "cbxCategoryIdUpdate";
+            this.cbxCategoryIdUpdate.Size = new System.Drawing.Size(121, 24);
+            this.cbxCategoryIdUpdate.TabIndex = 9;
             // 
-            // tbxQuantityPerUnit
+            // tbxQuantityPerUnitUpdate
             // 
-            this.tbxQuantityPerUnit.Location = new System.Drawing.Point(368, 97);
-            this.tbxQuantityPerUnit.Name = "tbxQuantityPerUnit";
-            this.tbxQuantityPerUnit.Size = new System.Drawing.Size(116, 22);
-            this.tbxQuantityPerUnit.TabIndex = 8;
+            this.tbxQuantityPerUnitUpdate.Location = new System.Drawing.Point(368, 97);
+            this.tbxQuantityPerUnitUpdate.Name = "tbxQuantityPerUnitUpdate";
+            this.tbxQuantityPerUnitUpdate.Size = new System.Drawing.Size(116, 22);
+            this.tbxQuantityPerUnitUpdate.TabIndex = 8;
             // 
-            // cbxCategoryId
+            // tbxUnitInStockUpdate
             // 
-            this.cbxCategoryId.FormattingEnabled = true;
-            this.cbxCategoryId.Location = new System.Drawing.Point(85, 98);
-            this.cbxCategoryId.Name = "cbxCategoryId";
-            this.cbxCategoryId.Size = new System.Drawing.Size(121, 24);
-            this.cbxCategoryId.TabIndex = 9;
+            this.tbxUnitInStockUpdate.Location = new System.Drawing.Point(368, 37);
+            this.tbxUnitInStockUpdate.Name = "tbxUnitInStockUpdate";
+            this.tbxUnitInStockUpdate.Size = new System.Drawing.Size(116, 22);
+            this.tbxUnitInStockUpdate.TabIndex = 7;
             // 
-            // btnAdd
+            // tbxUnitPriceUpdate
             // 
-            this.btnAdd.Location = new System.Drawing.Point(368, 159);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(116, 23);
-            this.btnAdd.TabIndex = 10;
-            this.btnAdd.Text = "Urunu Kaydet";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.tbxUnitPriceUpdate.Location = new System.Drawing.Point(85, 159);
+            this.tbxUnitPriceUpdate.Name = "tbxUnitPriceUpdate";
+            this.tbxUnitPriceUpdate.Size = new System.Drawing.Size(121, 22);
+            this.tbxUnitPriceUpdate.TabIndex = 6;
+            // 
+            // tbxProductNameUpdate
+            // 
+            this.tbxProductNameUpdate.Location = new System.Drawing.Point(85, 37);
+            this.tbxProductNameUpdate.Name = "tbxProductNameUpdate";
+            this.tbxProductNameUpdate.Size = new System.Drawing.Size(121, 22);
+            this.tbxProductNameUpdate.TabIndex = 5;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(278, 101);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(76, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Birim Adedi";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(278, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Stok Adedi";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(18, 159);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(36, 16);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Fiyat";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(18, 100);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(57, 16);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Kategori";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(21, 40);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 16);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Urun Adi";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(991, 729);
+            this.ClientSize = new System.Drawing.Size(996, 908);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbxAddProduct);
             this.Controls.Add(this.gbxProductName);
             this.Controls.Add(this.gbxCategory);
@@ -250,6 +375,8 @@
             this.gbxProductName.PerformLayout();
             this.gbxAddProduct.ResumeLayout(false);
             this.gbxAddProduct.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -275,6 +402,18 @@
         private System.Windows.Forms.TextBox tbxStock;
         private System.Windows.Forms.TextBox tbxUnitPrice;
         private System.Windows.Forms.TextBox tbxProductName2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.ComboBox cbxCategoryIdUpdate;
+        private System.Windows.Forms.TextBox tbxQuantityPerUnitUpdate;
+        private System.Windows.Forms.TextBox tbxUnitInStockUpdate;
+        private System.Windows.Forms.TextBox tbxUnitPriceUpdate;
+        private System.Windows.Forms.TextBox tbxProductNameUpdate;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

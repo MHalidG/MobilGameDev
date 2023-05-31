@@ -87,5 +87,22 @@ namespace Northwind.WebFormsUI
             MessageBox.Show("Product Saved.");
             LoadProducts();
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            _productService.Update(new Product
+            {
+
+                ProductId=Convert.ToInt32(dgwProduct.CurrentRow.Cells[0].Value),
+                ProductName = tbxProductNameUpdate.Text,
+                CategoryId = Convert.ToInt32(cbxCategoryIdUpdate.SelectedValue),
+                UnitsInStock = Convert.ToInt16(tbxUnitInStockUpdate.Text),
+                QuantityPerUnit = tbxQuantityPerUnitUpdate.Text,
+                UnitPrice = Convert.ToDecimal(tbxUnitPriceUpdate.Text)
+
+            });
+            MessageBox.Show("Urun Guncellendi");
+            LoadProducts();
+        }
     }
 }
