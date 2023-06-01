@@ -36,6 +36,11 @@ namespace Northwind.WebFormsUI
             cbxCategoryId.DataSource = _categoryService.GetAll();
             cbxCategoryId.DisplayMember = "CategoryName";
             cbxCategoryId.ValueMember = "CategoryId";
+
+
+            cbxCategoryIdUpdate.DataSource = _categoryService.GetAll();
+            cbxCategoryIdUpdate.DisplayMember = "CategoryName";
+            cbxCategoryIdUpdate.ValueMember = "CategoryId";
         }
 
         private void LoadProducts()
@@ -90,18 +95,41 @@ namespace Northwind.WebFormsUI
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            _productService.Update(new Product
-            {
-
-                ProductId=Convert.ToInt32(dgwProduct.CurrentRow.Cells[0].Value),
-                ProductName = tbxProductNameUpdate.Text,
-                CategoryId = Convert.ToInt32(cbxCategoryIdUpdate.SelectedValue),
-                UnitsInStock = Convert.ToInt16(tbxUnitInStockUpdate.Text),
-                QuantityPerUnit = tbxQuantityPerUnitUpdate.Text,
-                UnitPrice = Convert.ToDecimal(tbxUnitPriceUpdate.Text)
-
-            });
+            if (dgwProduct.CurrentRow != null)
+                _productService.Update(new Product
+                {
+                    ProductId = Convert.ToInt32(dgwProduct.CurrentRow.Cells[0].Value),
+                    ProductName = tbxProductNameUpdate.Text,
+                    CategoryId = Convert.ToInt32(cbxCategoryIdUpdate.SelectedValue),
+                    UnitsInStock = Convert.ToInt16(tbxUnitInStockUpdate.Text),
+                    QuantityPerUnit = tbxQuantityPerUnitUpdate.Text,
+                    UnitPrice = Convert.ToDecimal(tbxUnitPriceUpdate.Text)
+                });
             MessageBox.Show("Urun Guncellendi");
+            LoadProducts();
+        }
+
+        private void dgwProduct_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var row = dgwProduct.CurrentRow;
+            if (row != null)
+            {
+                tbxProductNameUpdate.Text = row.Cells[1].Value.ToString();
+                cbxCategoryIdUpdate.SelectedValue = row.Cells[2].Value;
+                tbxUnitPriceUpdate.Text = row.Cells[3].Value.ToString();
+                tbxQuantityPerUnitUpdate.Text = row.Cells[4].Value.ToString();
+                tbxUnitInStockUpdate.Text = row.Cells[5].Value.ToString();
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dgwProduct.CurrentRow != null)
+                _productService.Delete(new Product
+                {
+                    ProductId = Convert.ToInt32(dgwProduct.CurrentRow.Cells[0].Value)
+                });
+            MessageBox.Show("Urun Silindi");
             LoadProducts();
         }
     }

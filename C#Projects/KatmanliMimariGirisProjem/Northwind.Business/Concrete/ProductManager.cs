@@ -2,6 +2,7 @@
 using Northwind.Entities.Concrete;
 using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 using Northwind.Business.Abstract;
 using Northwind.DataAccess.Abstract;
 using Northwind.DataAccess.Concrete.NHibernate;
@@ -31,6 +32,20 @@ namespace Northwind.Business.Concrete
             _productDal.Add(product);
         }
 
+        public void Delete(Product product)
+        {
+            try
+            {
+                _productDal.Delete(product);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Salt Okunur Degerler Silinemez");
+
+            }
+            
+        }
+
         public List<Product> GetAll()
         {
             return _productDal.GetAll();
@@ -49,7 +64,10 @@ namespace Northwind.Business.Concrete
 
         public void Update(Product product)
         {
+
+
             _productDal.Update(product);
+           
         }
     }
 }

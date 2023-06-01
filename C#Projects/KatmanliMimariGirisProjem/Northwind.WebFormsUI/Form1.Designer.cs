@@ -59,6 +59,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnDelete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgwProduct)).BeginInit();
             this.gbxCategory.SuspendLayout();
             this.gbxProductName.SuspendLayout();
@@ -75,6 +76,7 @@
             this.dgwProduct.RowTemplate.Height = 24;
             this.dgwProduct.Size = new System.Drawing.Size(953, 158);
             this.dgwProduct.TabIndex = 0;
+            this.dgwProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwProduct_CellClick);
             // 
             // gbxCategory
             // 
@@ -266,9 +268,9 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(368, 159);
+            this.btnUpdate.Location = new System.Drawing.Point(343, 158);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(116, 23);
+            this.btnUpdate.Size = new System.Drawing.Size(168, 23);
             this.btnUpdate.TabIndex = 10;
             this.btnUpdate.Text = "Urunu Guncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
@@ -355,11 +357,22 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Urun Adi";
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(810, 481);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(116, 23);
+            this.btnDelete.TabIndex = 11;
+            this.btnDelete.Text = "Urunu Sil";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(996, 908);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbxAddProduct);
             this.Controls.Add(this.gbxProductName);
@@ -414,6 +427,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnDelete;
     }
 }
 
