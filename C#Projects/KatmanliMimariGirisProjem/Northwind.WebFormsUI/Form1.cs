@@ -9,6 +9,37 @@ using Northwind.Entities.Concrete;
 
 namespace Northwind.WebFormsUI
 {
+    /*
+     *S=Single Responsibilty Principle
+     
+     *O=Open-Closed Principle
+     * This rule is about an inheritance. The principle is as follows:
+    the class must be closed to modification and open to extension.
+    New class functionality should be added to an existing class through
+    inheritance, and not by modifying the existing one.
+     
+     *L=Liskov Substitution Principle
+    This rule also applies to an inheritance. 
+    It can be seen as a method of applying the open-closed principle.
+    The rule explains how to properly override parent class methods. 
+    The  Liskov substitution principle can be summarized as follows:
+    If you have a function or class X using class A,
+    then the replacement of class A by any of its subclasses should not break the function of X. 
+     
+     *I=Interface Segregation Principle
+    The interface segregation principle is very simple: 
+    you cannot overload a class and force it to 
+    implement and execute functionality that it does not need.
+     
+     *D=Dependency Inversion Principle
+    This principle is at the heart of dependency injection. 
+    The principle of dependency inversion has different and 
+    quite complex formulations, so let's try it in simple terms. 
+    This principle states that: classes should depend on abstractions,
+    not on specific implementations of those abstractions.
+     */
+
+
     public partial class Form1 : Form
     {
         public Form1()
